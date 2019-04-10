@@ -1,0 +1,157 @@
+[{
+  "id": 10,
+  "name": "Iron Ore",
+  "in": [],
+  "out": {
+    "id": 1,
+    "name": "Iron Ore",
+    "howMany": 30
+  },
+  "rank": 0,
+  "image": "assets/items/iron_ore.png"
+}, {
+  "id": 10,
+  "name": "Copper Ore",
+  "in": [],
+  "out": {
+    "id": 1,
+    "name": "Copper Ore",
+    "howMany": 30
+  },
+  "rank": 0,
+  "image": "assets/items/copper_ore.png"
+}, {
+  "id": 10,
+  "name": "Limestone",
+  "in": [],
+  "out": {
+    "id": 1,
+    "name": "Limestone",
+    "howMany": 30
+  },
+  "rank": 0,
+  "image": "assets/items/limestone.png"
+}, {
+  "id": 10,
+  "name": "Coal",
+  "in": [],
+  "out": {
+    "id": 1,
+    "name": "Coal",
+    "howMany": 30
+  },
+  "rank": 0,
+  "image": "assets/items/coal.png"
+}, {
+  "id": 10,
+  "name": "Crude Oil",
+  "in": [],
+  "out": {
+    "id": 1,
+    "name": "Crude Oil",
+    "howMany": 30
+  },
+  "rank": 0,
+  "image": "assets/items/crude_oil.png"
+}, {
+  "id": 10,
+  "name": "Caterium Ore",
+  "in": [],
+  "out": {
+    "id": 1,
+    "name": "Caterium Ore",
+    "howMany": 30
+  },
+  "rank": 0,
+  "image": "assets/items/caterium_ore.png"
+}, {
+  "id": 1,
+  "name": "Iron Ingot",
+  "in": [{
+    "id": 1,
+    "name": "Iron Ore",
+    "howMany": 30
+  }],
+  "out": {
+    "id": 1,
+    "name": "Iron Ingot",
+    "howMany": 30
+  },
+  "rank": 1,
+  "image": "assets/items/iron_ingot.png"
+}, {
+  "id": 2,
+  "name": "Copper Ingot",
+  "in": [],
+  "out": {
+    "id": 2,
+    "name": "Copper Ingot",
+    "howMany": 30
+  },
+  "image": "assets/items/copper_ingot.png",
+  "rank": 1
+}, {
+  "id": 3,
+  "name": "Iron Plate",
+  "in": [{
+    "id": 6,
+    "name": "Iron Ingot",
+    "howMany": 2
+  }],
+  "out": {
+    "id": 10,
+    "name": "Iron Plate",
+    "howMany": 1
+  },
+  "image": "assets/items/iron_plate.png",
+  "rank": 3
+}, {
+  "id": 4,
+  "name": "Iron Rod",
+  "in": [{
+    "id": 6,
+    "name": "Iron Ingot",
+    "howMany": 1
+  }],
+  "out": {
+    "id": 11,
+    "name": "Iron Rod",
+    "howMany": 1
+  },
+  "image": "assets/items/iron_rod.png",
+  "rank": 3
+}, {
+  "id": 4,
+  "name": "Screw",
+  "in": [{
+    "id": 6,
+    "name": "Iron Rod",
+    "howMany": 30
+  }],
+  "out": {
+    "id": 11,
+    "name": "Screw",
+    "howMany": 90
+  },
+  "image": "assets/items/screw.png",
+  "rank": 3
+}, {
+  "id": 4,
+  "name": "Reinforced Iron Plate",
+  "in": [{
+    "id": 6,
+    "name": "Iron Plate",
+    "howMany": 15
+  }, {
+    "id": 13,
+    "name": "Screw",
+    "howMany": 45
+  }],
+  "out": {
+    "id": 11,
+    "name": "Reinforced Iron Plate",
+    "howMany": 5
+  },
+  "image": "assets/items/reinforced_iron_plate.png",
+  "rank": 4
+}]
